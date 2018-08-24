@@ -1,0 +1,45 @@
+.row {
+
+	margin-right: -65px;
+
+	/* column space */
+	&--gutters > div {
+		padding-right: 65px;
+	}
+
+	/* row floats */
+	@mixin clearfix;
+
+	/* space between img and heading*/
+	&__b-margin-until-medium {
+		margin-bottom: 1rem;
+	}
+
+	/* medium screens */
+	@mixin atMedium {
+
+		/* no more space img and heading*/
+		&__b-margin-until-medium {
+			margin-bottom: 0;
+		}
+
+		&__medium-4 {
+			float: left;
+			width: 33.333%;
+		}
+
+		&__medium-4--larger {
+			width: 37%;
+		}
+
+		&__medium-8 {
+			float: left;
+			width: 66.66%;
+		}
+
+		&__medium-8--smaller {
+			width: 63%;
+		}
+	}
+}
+
