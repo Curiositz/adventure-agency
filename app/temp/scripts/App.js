@@ -116,6 +116,7 @@ function () {
   function MobileMenu() {
     _classCallCheck(this, MobileMenu);
 
+    this.siteHeader = jquery__WEBPACK_IMPORTED_MODULE_0___default()(".site-header");
     this.menuIcon = jquery__WEBPACK_IMPORTED_MODULE_0___default()(".site-header__menu-icon");
     this.menuContent = jquery__WEBPACK_IMPORTED_MODULE_0___default()(".site-header__menu-content");
     this.events();
@@ -130,6 +131,8 @@ function () {
     key: "toggleTheMenu",
     value: function toggleTheMenu() {
       this.menuContent.toggleClass("site-header__menu-content--is-visible");
+      this.siteHeader.toggleClass("site-header--is-expanded");
+      this.menuIcon.toggleClass("site-header__menu-icon--close-x");
     }
   }]);
 
