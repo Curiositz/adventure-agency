@@ -5,7 +5,8 @@
     "@babel/core": "^7.0.0",
     "jquery": "^3.3.1",
     "lodash": "^4.17.10",
-    "normalize.css": "^8.0.0"
+    "normalize.css": "^8.0.0",
+    "waypoints": "^4.0.1"
   },
   "devDependencies": {
     "@babel/preset-env": "^7.0.0",
