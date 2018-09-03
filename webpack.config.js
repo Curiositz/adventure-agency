@@ -2,11 +2,14 @@ module.exports = {
 	resolveLoader: {
 		moduleExtensions: ['-loader']
 	},
-	entry: "./app/assets/scripts/App.js",
+	entry: {
+		App: "./app/assets/scripts/App.js",
+		Vendor: "./app/assets/scripts/Vendor.js"
+	},
 	mode: "none",
 	output: {
 		path: __dirname + "/app/temp/scripts",
-		filename: "App.js"
+		filename: "[name].js"
 	},
 	module: {
 		rules: [
