@@ -1,0 +1,38 @@
+{
+  "name": "adventure-agency",
+  "version": "1.0.0",
+  "dependencies": {
+    "@babel/core": "^7.0.0",
+    "jquery": "^3.3.1",
+    "jquery-smooth-scroll": "^2.2.0",
+    "lazysizes": "^4.1.1",
+    "lodash": "^4.17.10",
+    "normalize.css": "^8.0.0",
+    "picturefill": "^3.0.2",
+    "waypoints": "^4.0.1"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.0.0",
+    "autoprefixer": "^8.6.5",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^8.0.0",
+    "babel-preset-env": "^1.7.0",
+    "browser-sync": "^2.24.6",
+    "del": "^3.0.0",
+    "gulp": "^3.9.1",
+    "gulp-modernizr": "^3.0.0",
+    "gulp-postcss": "^7.0.1",
+    "gulp-rename": "^1.4.0",
+    "gulp-svg-sprite": "^1.4.0",
+    "gulp-svg2png": "^0.3.0",
+    "gulp-watch": "^5.0.1",
+    "postcss-hexrgba": "^1.0.1",
+    "postcss-import": "^11.1.0",
+    "postcss-mixins": "^6.2.0",
+    "postcss-nested": "^3.0.0",
+    "postcss-simple-vars": "^4.1.0",
+    "webpack": "^4.17.1",
+    "webpack-cli": "^3.1.0",
+    "webpack-command": "^0.4.1"
+  }
+}
